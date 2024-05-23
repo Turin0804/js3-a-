@@ -1,0 +1,31 @@
+#wrapper{
+height: 100vh;
+background-color: #ccc;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#wrapper .result{
+    background-color:#7f8c8d ;
+    text-align: center;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+#wrapper button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20x;
+}
+#wrapper .btn .inc{
+    background-color: green;
+    color: #fff;
+}
+#wrapper .btn .dec{
+    background-color:red;
+    color: #fff;
+}
